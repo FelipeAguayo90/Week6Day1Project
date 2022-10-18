@@ -1,0 +1,75 @@
+html, body, h1, p, ol, li, a, div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+   background-color: rgb(228, 225, 225); 
+display: flex;
+flex-direction: column;
+}
+
+h1 {
+    margin: 20px 20px 5px 10%;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    width: 50px;
+}
+
+.h1 {
+    border-bottom: 2px solid aliceblue;
+}
+
+#products {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    padding-left: 10px;
+    height: 40px;
+    width: 80%;
+    border: 1px solid rgb(248, 248, 248);
+    box-shadow: 0.5px 0.5px 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.light {
+    background-color: aliceblue;
+}
+
+span {
+    width: 500px;
+}
+
+#clickMe {
+    margin: 10px 20px 20px 10%;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+
+.clickMe {
+    border: 1px solid aliceblue;
+}
+
+#clickMe:hover {
+    cursor: pointer;
+  }
+
+.darkMode {
+    background-color: rgb(86, 84, 84);
+    color: white;
+  }
+
+
+.darkerMode {
+    background-color: rgb(52, 51, 51);
+    color: aliceblue;
+
+  }
